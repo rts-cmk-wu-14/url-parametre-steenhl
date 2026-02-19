@@ -10,7 +10,7 @@ fetch("data/destinations.json")
 
 function content(destinations) {
 
-    const desitnationString = /*html*/ destinations.map((destination) => {
+    const desitnationString = destinations.map((destination) => {
 
         return /*html*/ `
             <figure class="destinations">
