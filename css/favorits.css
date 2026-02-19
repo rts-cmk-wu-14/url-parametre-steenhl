@@ -1,0 +1,29 @@
+.favorite {
+    display: inline-flex;
+    align-items: center;
+}
+
+.favorite__btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.favorite__btn:hover .favorite__icon path {
+    stroke: rgb(0, 255, 21);
+}
+
+.favorite__icon {
+    width: 24px;
+    height: 24px;
+    fill: #292929;
+    transition: fill 0.2s ease;
+}
+
+.favorite.active .favorite__icon path {
+    fill: rgb(255, 1, 1);
+    stroke: red;
+}

@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h1,
+h2,
+figure,
+figcaption,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}

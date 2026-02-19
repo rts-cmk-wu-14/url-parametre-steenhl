@@ -1,0 +1,26 @@
+body {
+    min-height: 100vh;
+}
+
+#main-wrapper {
+    background-color: aliceblue;
+    display: grid;
+    min-height: 100vh;
+}
+
+.destination {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.destination__figure {
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+}
+
+.destination__img-wrapper {}
+
+.destination__caption {}
